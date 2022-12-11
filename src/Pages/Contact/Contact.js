@@ -2,9 +2,14 @@ import React, { useState } from 'react';
 const Contact = () => {
 
     return (
-        <div className='h-[800px] flex justify-center items-center'>
-            <div className='w-96 p-9 shadow-xl rounded-xl glass'>
-                <h2 className='text-2xl text-center font-lighter mb-9 font-lighter'>Send Me An Email</h2>
+        <div className='h-[800px] lg:h-[900px] flex flex-col justify-center items-center'>
+            <p className='text-2xl md:px-4 md:text-3xl mb-24 font-lighter uppercase pb-3' >
+                <span className='bg-white px-2 py-2 pb-3'>
+                    <span className='bg-secondary px-4 pb-1'>Send</span>
+                    <span className='text-black font-bold pr-1'> Email</span>
+                </span></p>
+            <div className='w-96 p-9 pt-14 shadow-xl rounded-xl glass'>
+                {/* <h2 className='text-2xl text-center font-lighter mb-9 font-lighter'>Send Me An Email</h2> */}
                 <form action='https://formspree.io/f/mvoyedzp' method='POST' >
 
                     <div className="form-control w-full max-w-xs mb-6">

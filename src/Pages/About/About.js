@@ -1,5 +1,6 @@
 import React from 'react';
 import { useTypewriter, Cursor } from 'react-simple-typewriter';
+import img from '../../assets/Logo/portlogo2.png';
 
 const About = () => {
     const [text] = useTypewriter({
@@ -11,10 +12,10 @@ const About = () => {
     });
 
     return (
-        <div className='py-20'>
+        <div className='py-20 mb-10'>
             <p className='text-2xl md:px-4 md:text-3xl my-20 font-lighter uppercase pb-3' >
-                <span className='bg-white px-3 py-2 pb-3'>
-                    <span className='bg-secondary px-3 pb-1'>About</span>
+                <span className='bg-white px-2 py-2 pb-3'>
+                    <span className='bg-secondary px-4 pb-1'>About</span>
                     <span className='text-black font-bold pr-1'> Me</span>
                 </span></p>
             <div className="hero">
@@ -35,7 +36,7 @@ const About = () => {
                             and have good sense of humor. I like to tryout critical problems and solving by even thinking out of
                             the box with a positive attitude. And Hardworking and punctual because other things hamper without these two.
                         </p>
-                        <p className='text-xl md:px-4  font-lighter mb-10'>
+                        <p className='text-xl md:px-4  font-lighter mb-10 h-10'>
                             I've immense interest in
                             <span className='text-2xl text-secondary font-semibold'> {text}.</span>
                             <span className='text-secondary font-bold'><Cursor /></span>
@@ -44,9 +45,12 @@ const About = () => {
 
                     </div>
 
-
+                    <div className='flex justify-end'>
+                        <img className='w-2/3 md:w-1/3 lg:w-1/4' src={img} alt="" />
+                    </div>
                 </div>
             </div>
+
         </div>
     );
 };

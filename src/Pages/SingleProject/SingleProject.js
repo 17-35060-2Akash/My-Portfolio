@@ -30,8 +30,8 @@ const SingleProject = () => {
         <div className=''>
             <div>
                 <p className='text-2xl md:px-4 md:text-3xl mt-20 mb-5 font-lighter uppercase pb-3' >
-                    <span className='bg-white px-3 py-2 pb-3 '>
-                        <span className='bg-secondary px-3 pb-1'>Project</span>
+                    <span className='bg-white px-2 py-2 pb-3 '>
+                        <span className='bg-secondary px-4 pb-1'>Project</span>
                         <span className='text-black font-bold pr-1'> name</span>
                     </span>
 
@@ -75,7 +75,7 @@ const SingleProject = () => {
 
 
 
-            <div className='mb-32'>
+            <div className='mb-40'>
                 <p className='text-2xl md:px-4 md:text-3xl my-20 font-lighter uppercase pb-3' >
                     <span className='bg-white px-3 py-2 pb-3 '>
                         <span className='bg-primary px-3 pb-1'>Project</span>
@@ -83,15 +83,15 @@ const SingleProject = () => {
                     </span>
                 </p>
                 <a href={links[0][1]} target="_blank" rel="noopener noreferrer">
-                    <button className='btn btn-primary hover:btn-secondary text-white m-5'>{links[0][0]}</button>
+                    <button className='btn btn-primary hover:btn-secondary text-white m-5 rounded-none'>{links[0][0]}</button>
                 </a>
 
                 <a href={links[1][1]} target="_blank" rel="noopener noreferrer">
-                    <button className='btn btn-primary hover:btn-secondary text-white m-5'>{links[1][0]}</button>
+                    <button className='btn btn-primary hover:btn-secondary text-white m-5 rounded-none'>{links[1][0]}</button>
                 </a>
 
                 <a href={links[2][1]} target="_blank" rel="noopener noreferrer">
-                    <button className='btn btn-primary hover:btn-secondary text-white m-5'>{links[2][0]}</button>
+                    <button className='btn btn-primary hover:btn-secondary text-white m-5 rounded-none'>{links[2][0]}</button>
                 </a>
             </div>
 

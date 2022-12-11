@@ -8,12 +8,12 @@ const Skills = () => {
 
 
             <p className='text-2xl md:px-4 md:text-3xl mt-20 md:mt-32 font-lighter uppercase pb-3' >
-                <span className='bg-white px-3 py-2 pb-3 '>
-                    <span className='bg-primary px-3 pb-1'>My</span>
+                <span className='bg-white px-2 py-2 pb-3 '>
+                    <span className='bg-primary px-4 pb-1'>My</span>
                     <span className='text-black font-bold pr-1'> Skills</span>
                 </span></p>
 
-            <div className='my-10 md:mt-20 md:text-end'>
+            <div className='my-16 md:mt-20 md:text-end'>
                 <a href={'https://github.com/17-35060-2Akash'} target="_blank" rel="noopener noreferrer">
                     <button className='btn btn-primary hover:btn-secondary text-white  px-20 rounded-none'><FaGithub className='text-2xl mr-2 '></FaGithub> Github</button>
                 </a>

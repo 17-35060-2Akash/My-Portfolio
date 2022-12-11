@@ -23,8 +23,8 @@ const Intro = () => {
                     <img src={mypro} className=" lg:w-1/2 md:w-2/3 rounded-lg" alt='' />
                     <div className='md:pl-5 text-center md:text-start w-2/3 '>
                         <p className='text-2xl md:px-4 md:text-xl mb-7 font-lighter uppercase pb-3' >
-                            <span className='bg-white px-3 pt-3 pb-4'>
-                                <span className='bg-primary px-3 pb-2 pt-1'>Hello</span>
+                            <span className='bg-white px-2 pt-3 pb-4'>
+                                <span className='bg-primary px-4 pb-2 pt-1'>Hello</span>
                                 <span className='text-black font-bold pr-1'> There!</span>
                             </span></p>
                         {/*  <p className='text-xl md:px-4  font-lighter '>This is Nasin Ayenul Akash, a young and creative web developer.
