@@ -1,0 +1,146 @@
+[
+    {
+        "category_id": 1,
+        "name": "Wheel Mania",
+        "image": "https://i.ibb.co/wJ0Mr0c/21.jpg",
+        "thumbnail_img": "https://i.ibb.co/ZKYcbvM/thumbnail1.jpg",
+        "short_description": "Wheel Mania is a website which offers Second Hand cars to the customers and help resellers to get their cars sold. Features distinct dashboard interfaces for Admins, Sellers and Buyers with secure Login, signup with the forgot password. Adding products for the seller, Verifying seller and Deletion of Users for the admin only.",
+        "logo": "",
+        "links": [
+            [
+                "Live site Link (Firebase)",
+                "https://wheel-mania.web.app/"
+            ],
+            [
+                "Client Public Repo Link",
+                "https://github.com/17-35060-2Akash/wheel-mania-client-side-assignment-12"
+            ],
+            [
+                "Server Public Repo Link",
+                "https://github.com/17-35060-2Akash/wheel-mania-server-side-assignment-12"
+            ]
+        ],
+        "long_description": [
+            [
+                "common parts",
+                "A navbar which is always in the top and the footer which is at the bottom of the page are common always. For Smaller screens when you toggle the navbar toggler it opens a side panel from the left. Moreover you can see the conditional toggling between Login vs Dashboard and Sign out. If you login you can see the username in the navbar corner."
+            ],
+            [
+                "Home Page",
+                "Everyone is allowed to see Home. first we'll encounter the main home where you can see some introductory sections along with the car categories. There's an advertisement section as well but the section depends on if a seller advertises his/her product or not. Each car category can redirected you to Wheel Mania listings by catergory if you login."
+            ],
+            [
+                "Dashboard",
+                "#When a Buyer logs in and goes to the Dashboard he can see: My Orders where he can see products from the categories he selected,and My Wishlist showing his wishlist. #When a Seller logs in and goes to the Dashboard he can see: Add a Product where he can add his own listing and when he is done he'll get redirected to My Products page, where he can see what he'as added. #When a Seller logs in and goes to the Dashboard he can see: All Sellers and All Buyers page where he can delete one user if he has the access and verifying a seller. If sellers are verified there will show a blue tick a aside of their names."
+            ],
+            [
+                "Login, Logout and Sign Up",
+                "The login page has two types of login options. Email password based and google login. The signup page'll take you to the home. They are both secured properly."
+            ],
+            [
+                "Other pages",
+                " There are a Blog, Display error and an Not Found Page."
+            ],
+            [
+                "Features implemented",
+                "Authentication and JWT Authorization. Beauty: tailwind Css, daisyUI, react icons, sweetalert, react hot toast, stripe etc."
+            ]
+        ]
+    },
+    {
+        "category_id": 2,
+        "name": "Shutter Up",
+        "image": "https://i.ibb.co/d2K36Kg/22.jpg",
+        "thumbnail_img": "https://i.ibb.co/nsDKGGs/thumbnail2.jpg",
+        "short_description": "A personalized website of a photographer for offering photography services to the users and adding reviews. All the services open for checking out the showcased works, reviews and comments and adding reviews if verified user. Features a Search panel and for logged in users Adding new services and seeing own reviews are allowed.",
+        "logo": "",
+        "links": [
+            [
+                "Live site Link (Firebase)",
+                "https://shutter-up-d9948.web.app/"
+            ],
+            [
+                "Client Public Repo Link",
+                "https://github.com/17-35060-2Akash/shutter-up-client-side-assignment-11"
+            ],
+            [
+                "Server Public Repo Link",
+                "https://github.com/17-35060-2Akash/shutter-up-server-side-assignment-11"
+            ]
+        ],
+        "long_description": [
+            [
+                "common parts",
+                "A navbar which is always in the top and the footer which is at bottom of the page are there always. For Smaller screens when you toggle the navbar toggler it opens a side panel from the left. Moreover you can see the conditional toggling between Login vs My Reviews, Add Service and Logout. If you login you can see the username on the navbar right corner."
+            ],
+            [
+                "Home Page",
+                "Everyone is allowed to see Home. first we'll encounter the main home where you can see a search section after the banner where any user can search events. Then there's the popular services part. If cliked on the view all button, you can see all the services in the services page. There is a section called the latest services which will show a newly added service is added everytime else invisible."
+            ],
+            [
+                "Service Details, My Reviews and Add Service",
+                "When you click a specific service, it'll take you to service details page. Where you can see the comments of all reviewers, and add a review if logged in. If you're logged in as a verified user You can see My Reviews where you can check, delete and update your reviews and and Add Service Page where you can add a new service."
+            ],
+            [
+                "Login, Logout and Sign Up",
+                "The login page has two types of login options. Email password based and google login. The signup page'll take you to the home. They are both secured properly."
+            ],
+            [
+                "Other pages",
+                "There are a Blog, Display error and an Not Found Page."
+            ],
+            [
+                "Features implemented",
+                "Structure and logic: React, js, react router, nodeexpress, mongodb etc. Security: Firebase Authentication and JWT Authorization. Beauty: tailwind Css, daisyUI, react icons, sweetalert, react hot toast etc."
+            ]
+        ]
+    },
+    {
+        "category_id": 3,
+        "name": "Code Monkey",
+        "image": "https://i.ibb.co/N7RcG7y/23.jpg",
+        "thumbnail_img": "https://i.ibb.co/GFGyJTy/thumbnail3.jpg",
+        "short_description": "A react application which offers programming courses and getting info as pdf if premium access is needed. Designed with proper Login, Logout and Signup systems and Private Routes. Features Dark Mode, Light mode and all courses panel.",
+        "logo": "",
+        "links": [
+            [
+                "Live site Link (Firebase)",
+                "https://code-monkey-8ad4a.web.app/"
+            ],
+            [
+                "Client Public Repo Link",
+                "https://github.com/17-35060-2Akash/code-monkey-client-assignment-10"
+            ],
+            [
+                "Server Public Repo Link",
+                "https://github.com/17-35060-2Akash/code-monkey-server-assignment-10"
+            ]
+        ],
+        "long_description": [
+            [
+                "common parts",
+                "A navbar which is always in the top and the footer which is at the bottom of the page are common always. For Smaller screens when you toggle the navbar toggler it opens a side panel from the right. Moreover you can see the conditional toggling between Login, Sign Up, user image and Logout. When we visit the site, first we'll encounter the main home where you can see several promotions and information about the page."
+            ],
+            [
+                "Courses Page",
+                "In the home page, you can click on the course button or in the navbar, it'll redirect you to the courses page where you can see many programming courses. There is a panel also where courses are seen. You can click any of them to check the details."
+            ],
+            [
+                "Course Details",
+                "Then you can see details of the course you have clicked. There is a PDF button here. When you click it you can see this page downloaded as PDF. There's another button called premium access on which if you click it will redirect you to a checkout section as a logged in user. If not you'll have visit the login page."
+            ],
+            [
+                "Login, Logout and Sign Up:",
+                "he login page has three types of login options. Clicking any one among them, you can land directly to the checkout page and see more details. Else, There is a Sign Up button in the Login page. You can register there. In the Sign Up page you can see terms and policy there."
+            ],
+            [
+                "Other pages",
+                "There are a Blog and an FAQ also."
+            ],
+            [
+                "Features implemented",
+                "Structure and logic: React, js, react router, nodeexpress, mongodb,JS PDF etc. Security: Firebase Authentication. Beauty: Bootstrap, Css, daisyUI, react icons, sweetalert, react hot toast etc."
+            ]
+        ]
+    }
+]

@@ -1,0 +1,18 @@
+.projects-container {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    gap: 16px;
+}
+
+.options-div:hover {
+    /* box-shadow: 10px 5px 10px gray; */
+    transform: scale(1.05);
+    transition: transform 1s ease-out;
+    color: #2040fe;
+}
+
+@media only screen and (max-width: 900px) {
+    .projects-container {
+        grid-template-columns: 1fr;
+    }
+}
