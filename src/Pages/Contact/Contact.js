@@ -22,9 +22,9 @@ const Contact = () => {
 
             </div>
 
-            <p className='text-2xl md:px-4 md:text-3xl mb-24 -mt-16  lg:-mt-14 font-lighter uppercase pb-3' >
-                <span className='bg-white px-2 py-2 pb-3'>
-                    <span className='bg-secondary px-4 pb-1'>Send</span>
+            <p style={{ zIndex: 10 }} className='text-2xl md:px-4 md:text-3xl mb-24 -mt-16  lg:-mt-14 font-lighter uppercase pb-3' >
+                <span className='bg-white px-2 py-2 pt-2.5 pb-3'>
+                    <span className='bg-secondary px-4 pb-1 pt-0.5'>Send</span>
                     <span className='text-black font-bold pr-1'> Email</span>
                 </span></p>
             <div className='w-96 p-9  shadow-xl rounded-xl glass'>

@@ -20,6 +20,20 @@ const Navbar = () => {
         }
     </>
 
+    const dropDownMenu = <>
+        {
+            <>
+                <li className='font-semibold   hover:text-secondary py-1 '><Link to='/'>Portfolio</Link></li>
+                <li className='font-semibold   hover:text-secondary py-1 '><Link to='/about'>About</Link></li>
+                <li className='font-semibold   hover:text-secondary py-1 '><Link to='/skills'>Skills</Link></li>
+                {/* <li className='font-semibold   hover:text-secondary py-1 '><Link to='/projects'>Projects</Link></li> */}
+                <li className='font-semibold   hover:text-secondary py-1 '><Link to='/blogs'>Blogs</Link></li>
+                <li className='font-semibold   hover:text-secondary py-1 '><Link to='/contact'>Contact Me</Link></li>
+                {/* <button className='btn btn-secondary ml-2'>Logout</button> */}
+            </>
+        }
+    </>
+
     return (
         <div>
             {/* <Introduction></Introduction> */}
@@ -27,12 +41,12 @@ const Navbar = () => {
                 <div className="dropdown">
                     <label
                         onClick={() => setIsMenuOpen(!isMenuOpen)}
-                        tabIndex={0} className="btn btn-ghost lg:hidden ml-2 md:ml-5">
+                        tabIndex={0} className="btn btn-ghost lg:hidden ml-2 md:ml-5 hover:bg-slate-600">
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                     </label>
                     {
-                        isMenuOpen && <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 pt-4 shadow bg-base-100 rounded-box w-52 text-black uppercase">
-                            {menuItems}
+                        isMenuOpen && <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 py-4 shadow bg-base-100 rounded-box w-52 text-black uppercase">
+                            {dropDownMenu}
                         </ul>
                     }
 
