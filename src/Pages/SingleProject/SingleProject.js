@@ -35,8 +35,8 @@ const SingleProject = () => {
         <div className=''>
             <div>
                 <p className='text-2xl md:px-4 md:text-3xl mt-20 mb-5 font-lighter uppercase pb-3' >
-                    <span className='bg-white px-2 py-2 pb-3 '>
-                        <span className='bg-secondary px-4 pb-1'>Project</span>
+                    <span className='bg-white px-2.5 py-2 pb-3 pt-3 md:pt-2.5'>
+                        <span className='bg-secondary px-4 pb-1 pt-1 md:pt-0.5'>Project</span>
                         <span className='text-black font-bold pr-1'> Details</span>
                     </span>
 
@@ -82,9 +82,9 @@ const SingleProject = () => {
 
             <div className='mb-40'>
                 <p className='text-2xl md:px-4 md:text-3xl my-20 font-lighter uppercase pb-3' >
-                    <span className='bg-white px-3 py-2 pb-3 '>
-                        <span className='bg-primary px-3 pb-1'>Project</span>
-                        <span className='text-black font-bold pr-1'> Links</span>
+                    <span className='bg-white px-2.5 py-2 pb-3 pt-3.5 md:pt-2.5'>
+                        <span className='bg-primary px-3.5 pb-1 pt-1.5 md:pt-0.5'>Project</span>
+                        <span className='text-black font-bold pr-1 pl-1 md:pl-0'> Links</span>
                     </span>
                 </p>
                 <a href={links[0][1]} target="_blank" rel="noopener noreferrer">

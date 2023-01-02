@@ -23,9 +23,9 @@ const Intro = () => {
                     <img src={mypro} className=" lg:w-1/2 md:w-2/3 rounded-lg ml-3 mt-10 md:mt-28 lg:mt-0" alt='' />
                     <div className='md:pl-5 text-center md:text-start w-2/3 mt-20 lg:mt-0'>
                         <p className='text-2xl md:px-4 md:text-xl mb-7 font-lighter uppercase pb-3' >
-                            <span className='bg-white px-2 pt-3 pb-4'>
-                                <span className='bg-primary px-4 pb-2 pt-1'>Hello</span>
-                                <span className='text-black font-bold pr-1'> There!</span>
+                            <span className='bg-white px-2 pt-3.5 pb-5'>
+                                <span className='bg-primary px-4 pb-2 pt-2.5 md:pt-1 text-3xl'>Hello</span>
+                                <span className='text-black font-semibold pr-1'> There!</span>
                             </span></p>
                         {/*  <p className='text-xl md:px-4  font-lighter '>This is Nasin Ayenul Akash, a young and creative web developer.
                             Need a Web Developer today who can relate to your vision easily? Engage with me in no time!
@@ -35,7 +35,7 @@ const Intro = () => {
                             <span className='text-primary font-bold'><Cursor /></span>
                         </p>
                         <a target='_blank' href='https://drive.google.com/file/d/1gXR0Zpzfp4TA0rfGdtD39SxdDTLwH8nN/view?usp=sharing'>
-                            <button className="btn btn-primary md:ml-4 mt-10 w-1/2 text-white border-0 rounded-none bg-secondary ">MY RESUME</button>
+                            <button className="btn btn-primary md:ml-4 mt-12 w-3/5 md:w-1/2 text-white border-0 rounded-none bg-secondary">MY RESUME</button>
                         </a>
                         {/* <div className=''>
                             <a target='_blank' href='https://drive.google.com/file/d/1gXR0Zpzfp4TA0rfGdtD39SxdDTLwH8nN/view?usp=sharing'>

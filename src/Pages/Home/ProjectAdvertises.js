@@ -29,8 +29,8 @@ const ProjectAdvertises = () => {
         <section className='my-7 mt-32 md:mt-44 lg:mt-32'>
             {/* <h2 className="text-4xl font-medium my-20 ml-1 text-secondary">Fresh Works</h2> */}
             <p className='text-2xl md:px-4 md:text-4xl my-20 font-lighter uppercase pb-3' >
-                <span className='bg-white px-2 py-2 pt-2.5 pb-3'>
-                    <span className='bg-secondary px-4 pb-1 pt-0.5'>Fresh</span>
+                <span className='bg-white px-2 py-3 md:pt-2.5 pb-3'>
+                    <span className='bg-secondary px-4 pb-1 pt-1 md:pt-0.5'>Fresh</span>
                     <span className='text-black font-bold pr-1'> Works</span>
                 </span></p>
 

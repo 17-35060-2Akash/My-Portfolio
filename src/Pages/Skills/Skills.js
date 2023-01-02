@@ -23,8 +23,8 @@ const Skills = () => {
 
 
             <p className='text-2xl md:px-4 md:text-3xl mt-32 md:mt-32 mb-32 md:mb-44 font-lighter uppercase pb-3' >
-                <span className='bg-white px-2 py-2 pb-3 '>
-                    <span className='bg-primary px-4 pb-1'>My</span>
+                <span className='bg-white px-2 py-2 pb-3 pt-2.5'>
+                    <span className='bg-primary px-4 pb-1  pt-0.5'>My</span>
                     <span className='text-black font-bold pr-1'> Skills</span>
                 </span></p>
 
