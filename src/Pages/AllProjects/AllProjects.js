@@ -1,8 +1,10 @@
 import { useQuery } from '@tanstack/react-query';
-import React, { useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
 import useTitle from '../../Hooks/useTitle';
 import ProjectCard from '../Home/ProjectCard';
+import lottie from 'lottie-web';
+
 
 const AllProjects = () => {
 
@@ -24,6 +26,26 @@ const AllProjects = () => {
         setCatchProject({});
         setCatchProject(project);
     };
+
+    const container = useRef(null);
+
+    useEffect(() => {
+        lottie.loadAnimation({
+            container: container.current,
+            renderer: 'svg',
+            loop: true,
+            autoplay: true,
+            animationData: require('../../assets/lottie/loader.json')
+        })
+    }, []);
+
+    if (isLoading) {
+        return (
+            <div className='container  lg:w-3/12 mx-auto pb-48' ref={container}>
+
+            </div>
+        );
+    }
 
     return (
         <section className='my-7 mt-32 md:mt-40 lg:mt-32 mb-40 lg:mb-60'>

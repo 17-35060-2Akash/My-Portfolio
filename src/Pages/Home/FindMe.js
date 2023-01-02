@@ -11,7 +11,7 @@ const FindMe = () => {
             renderer: 'svg',
             loop: true,
             autoplay: true,
-            animationData: require('../../assets/lottie/coding2.json')
+            animationData: require('../../assets/lottie/coding3.json')
         })
     }, []);
 
@@ -36,7 +36,7 @@ const FindMe = () => {
 
 
             </div>
-            <div className='container w-3/4 md:w-1/2 mx-auto pb-10 md:-mt-10 lg:-mt-20' ref={container}>
+            <div className='container w-3/4 md:w-1/2 mx-auto pb-30 mt-10 md:mt-20  lg:mt-20 mb-40 md:mb-44' ref={container}>
 
             </div>
         </div>

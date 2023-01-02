@@ -17,8 +17,8 @@ const About = () => {
     return (
         <div className='py-20 mb-10'>
             <p className='text-2xl md:px-4 md:text-3xl my-20 font-lighter uppercase pb-3' >
-                <span className='bg-white px-2 py-2 pb-3 pt-2.5'>
-                    <span className='bg-secondary px-4 pb-1 pt-0.5 md:pt-0'>About</span>
+                <span className='bg-white px-2 py-2 pb-3 pt-3 md:pt-2.5'>
+                    <span className='bg-secondary px-4 pb-1 pt-1 md:pt-0.5'>About</span>
                     <span className='text-black font-bold pr-1'> Me</span>
                 </span></p>
             <div className="hero">

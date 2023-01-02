@@ -23,9 +23,9 @@ const Intro = () => {
                     <img src={mypro} className=" lg:w-1/2 md:w-2/3 rounded-lg ml-3 mt-10 md:mt-28 lg:mt-0" alt='' />
                     <div className='md:pl-5 text-center md:text-start w-2/3 mt-20 lg:mt-0'>
                         <p className='text-2xl md:px-4 md:text-xl mb-7 font-lighter uppercase pb-3' >
-                            <span className='bg-white px-2 pt-3.5 pb-5'>
-                                <span className='bg-primary px-4 pb-2 pt-2.5 md:pt-1 text-3xl'>Hello</span>
-                                <span className='text-black font-semibold pr-1'> There!</span>
+                            <span className='bg-white px-2 pt-3 md:pt-3.5 pb-3.5'>
+                                <span className='bg-primary px-4 pb-1.5 pt-1 text-2xl'>Hello</span>
+                                <span className='text-primary font-semibold pb-1.5 pr-1 text-2xl'> There!</span>
                             </span></p>
                         {/*  <p className='text-xl md:px-4  font-lighter '>This is Nasin Ayenul Akash, a young and creative web developer.
                             Need a Web Developer today who can relate to your vision easily? Engage with me in no time!
