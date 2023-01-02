@@ -1,6 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import Main from "../../Layouts/Main";
 import About from "../../Pages/About/About";
+import AllProjects from "../../Pages/AllProjects/AllProjects";
 import Blogs from "../../Pages/Blogs/Blogs";
 import Contact from "../../Pages/Contact/Contact";
 import Home from "../../Pages/Home/Home";
@@ -39,8 +40,13 @@ export const router = createBrowserRouter([
                 element: <Contact></Contact>
             },
             {
-                path: '/project/:id',
+                path: '/allprojects',
+                element: <AllProjects></AllProjects>
+            },
+            {
+                path: '/projects/:id',
                 element: <SingleProject></SingleProject>,
+                loader: async ({ params }) => fetch(`https://my-portfolio-server-rho.vercel.app/projects/${params.id}`)
             },
         ]
     },

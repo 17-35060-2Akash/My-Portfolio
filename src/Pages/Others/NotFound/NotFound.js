@@ -1,8 +1,9 @@
 import React from 'react';
 import image from '../../../assets/Others/dead.png';
+import useTitle from '../../../Hooks/useTitle';
 
 const NotFound = () => {
-    // useTitle('Not Found');
+    useTitle('Not Found');
 
     return (
         <div className='flex flex-col align-center justify-center '>

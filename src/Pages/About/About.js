@@ -1,8 +1,11 @@
 import React from 'react';
 import { useTypewriter, Cursor } from 'react-simple-typewriter';
 import img from '../../assets/Logo/portlogo2.png';
+import useTitle from '../../Hooks/useTitle';
 
 const About = () => {
+    useTitle('About');
+
     const [text] = useTypewriter({
         words: ['Photography', 'Painting and Sketching', ' Music and Playing Instruments(Guitar, Harmonium, Ukulele)', 'Reading Books', 'Writing', 'Cooking', 'Travelling', 'Watching Movies and Computer Games'],
         loop: {},
@@ -27,14 +30,14 @@ const About = () => {
                             Operating form Bangladesh, I currently focus on MERN Stack Development for rapid and reliable systems to ensure
                             quicker deployments. I graduated from <span className='text-cyan-400'>American International University Bangladesh </span>
                             honored by a <span className='text-cyan-400'>BSc degree in
-                                the CS program in 2022</span>. Learning and trying out new things, these are my passion since boyhood and maybe it'll stay
+                                the CS program in 2022</span>. Learning and trying out new things, are my passion since boyhood and maybe it'll stay
                             as I breathe.
                         </p>
                         <p className='text-xl md:px-4  font-lighter mb-10'>
-                            I think I've the ability of pursuing new experiences and adapting quick, Conscientious,
-                            Desire towards creative deeds, Decision making ability in critical situations. I'm Ambivert
-                            and have good sense of humor. I like to tryout critical problems and solving by even thinking out of
-                            the box with a positive attitude. And Hardworking and punctual because other things hamper without these two.
+                            I think I've the ability of Pursuing new experiences and adapting quick, Conscientious
+                            desire towards creative deeds and Decision making ability in critical situations. I'm Ambivert
+                            and have a good sense of humor. I like to tryout critical problems and solving by even thinking out of
+                            the box with a positive attitude. I'm Hardworking and punctual because other things hamper without these two.
                         </p>
                         <p className='text-xl md:px-4  font-lighter mb-10 h-10'>
                             I've immense interest in
@@ -45,8 +48,8 @@ const About = () => {
 
                     </div>
 
-                    <div className='flex justify-end'>
-                        <img className='w-2/3 md:w-1/3 lg:w-1/4' src={img} alt="" />
+                    <div className='flex justify-end mt-20 md:mt-0'>
+                        <img className='w-2/4 md:w-1/3 lg:w-1/4' src={img} alt="" />
                     </div>
                 </div>
             </div>

@@ -1,30 +1,35 @@
 import { useQuery } from '@tanstack/react-query';
-import React, { useState } from 'react';
+import React, { useRef, useState } from 'react';
 import { useLoaderData, useParams } from 'react-router-dom';
+import useTitle from '../../Hooks/useTitle';
 
 const SingleProject = () => {
-    const params = useParams();
+    const project = useLoaderData();
+    const { image, thumbnail_img, long_description, links, name } = project;
+
+    useTitle(`${name}`);
+    // const params = useParams();
+
     // console.log(params.id);
 
-    const { data: projects = [], isLoading, refetch } = useQuery({
+    /* const { data: projects = [], isLoading, refetch } = useQuery({
         queryKey: ['projects'],
         queryFn: async () => {
             const res = await fetch('projects.json');
             const data = await res.json();
             return data;
         }
-    });
+    }); */
 
 
     // const [project, setProject] = useState({});
 
     // console.log(projects);
-    const singleProject = projects.find(project => project.category_id === parseInt(params.id));
+    // const singleProject = projects.find(project => project.category_id === parseInt(params.id));
     // console.log(singleProject);
 
-    const { thumbnail_img, long_description, links, name } = singleProject;
+    // const { thumbnail_img, long_description, links, name } = singleProject;
     // console.log(links)
-
 
     return (
         <div className=''>
@@ -32,13 +37,13 @@ const SingleProject = () => {
                 <p className='text-2xl md:px-4 md:text-3xl mt-20 mb-5 font-lighter uppercase pb-3' >
                     <span className='bg-white px-2 py-2 pb-3 '>
                         <span className='bg-secondary px-4 pb-1'>Project</span>
-                        <span className='text-black font-bold pr-1'> name</span>
+                        <span className='text-black font-bold pr-1'> Details</span>
                     </span>
 
                 </p>
-                <p className='text-3xl uppercase font-medium mb-20'> {name}</p>
+                <p className='text-3xl uppercase font-medium mb-20 mt-10'> {name}</p>
 
-                <img className='w-2/3 mx-auto rounded-md my-10' src={thumbnail_img} alt="" />
+                <img className='w-2/3 mx-auto rounded-md my-10' src={image} alt="" />
             </div>
 
 

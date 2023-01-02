@@ -19,9 +19,9 @@ const Intro = () => {
     return (
         <section className=''>
             <div className="hero">
-                <div className="hero-content flex-col lg:flex-row">
-                    <img src={mypro} className=" lg:w-1/2 md:w-2/3 rounded-lg" alt='' />
-                    <div className='md:pl-5 text-center md:text-start w-2/3 '>
+                <div className="hero-content flex-col lg:flex-row lg:mt-10">
+                    <img src={mypro} className=" lg:w-1/2 md:w-2/3 rounded-lg ml-3 mt-10 md:mt-28 lg:mt-0" alt='' />
+                    <div className='md:pl-5 text-center md:text-start w-2/3 mt-20 lg:mt-0'>
                         <p className='text-2xl md:px-4 md:text-xl mb-7 font-lighter uppercase pb-3' >
                             <span className='bg-white px-2 pt-3 pb-4'>
                                 <span className='bg-primary px-4 pb-2 pt-1'>Hello</span>
@@ -30,7 +30,7 @@ const Intro = () => {
                         {/*  <p className='text-xl md:px-4  font-lighter '>This is Nasin Ayenul Akash, a young and creative web developer.
                             Need a Web Developer today who can relate to your vision easily? Engage with me in no time!
                         </p> */}
-                        <p className='text-xl md:text-2xl md:px-4  font-lighter h-52 md:h-32'>
+                        <p className='text-xl md:text-2xl md:px-4 lg:pt-3 font-lighter h-52 md:h-36 lg:h-40 uppercase'>
                             {text}
                             <span className='text-primary font-bold'><Cursor /></span>
                         </p>

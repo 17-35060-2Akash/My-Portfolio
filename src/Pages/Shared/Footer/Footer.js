@@ -19,7 +19,7 @@ const Footer = () => {
                 <a target="_blank" rel="noopener noreferrer" href='https://www.facebook.com/nasin.akash/' className='px-4 text-4xl'><FaFacebookSquare></FaFacebookSquare> </a>
 
             </div>
-            <h2 className='py-2 text-cyan-400 font-lighter'>Copyright©{year} - All right reserved by N A Akash</h2>
+            <h2 className='py-2 text-xs md:text-md text-cyan-400 font-lighter'>Copyright©{year} - All right reserved by N A Akash</h2>
         </div>
     );
 };
