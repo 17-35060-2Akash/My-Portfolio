@@ -1,6 +1,6 @@
 import { useQuery } from '@tanstack/react-query';
 import React, { useEffect, useRef, useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLoaderData, useNavigation } from 'react-router-dom';
 import useTitle from '../../Hooks/useTitle';
 import ProjectCard from '../Home/ProjectCard';
 import lottie from 'lottie-web';
@@ -9,6 +9,8 @@ import lottie from 'lottie-web';
 const AllProjects = () => {
 
     useTitle('All Projects');
+    // const projects = useLoaderData();
+    // const navigation = useNavigation();
 
     const { data: projects = [], isLoading, refetch } = useQuery({
         queryKey: ['projects'],
@@ -46,6 +48,14 @@ const AllProjects = () => {
             </div>
         );
     }
+
+    /* if (navigation.state === 'loading') {
+        return (
+            <div className='container  lg:w-3/12 mx-auto pb-48' ref={container}>
+
+            </div>
+        );
+    } */
 
     return (
         <section className='my-7 mt-32 md:mt-40 lg:mt-32 mb-40 lg:mb-60'>

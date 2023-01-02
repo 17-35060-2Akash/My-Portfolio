@@ -41,7 +41,8 @@ export const router = createBrowserRouter([
             },
             {
                 path: '/allprojects',
-                element: <AllProjects></AllProjects>
+                element: <AllProjects></AllProjects>,
+                loader: async ({ params }) => fetch('https://my-portfolio-server-rho.vercel.app/projects')
             },
             {
                 path: '/projects/:id',
