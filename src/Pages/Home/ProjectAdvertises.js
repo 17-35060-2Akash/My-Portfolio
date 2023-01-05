@@ -17,7 +17,13 @@ const ProjectAdvertises = () => {
             return data.slice(0, 3);
         }
     });
-    const [catchProject, setCatchProject] = useState({});
+    const initialProject = {
+        name: "Wheel Mania",
+        short_description: "Wheel Mania is a website which offers Second Hand cars to the customers and help resellers to get their cars sold. Features distinct dashboard interfaces for Admins, Sellers and Buyers with secure Login, signup with the forgot password. Adding products for the seller, Verifying seller and Deletion of Users for the admin only.",
+        thumbnail_img: "https://i.ibb.co/Rykg1fG/thumbnail1.jpg"
+    };
+
+    const [catchProject, setCatchProject] = useState(initialProject);
 
     // console.log(projects);
 
