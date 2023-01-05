@@ -28,7 +28,9 @@ const Blogs = () => {
     }, []);
 
     return (
-        <div>
+        <div
+            data-aos="zoom-in-right"
+        >
             <div className='my-40 mb-10'>
                 <h1 className='text-xl md:text-2xl'>{text}
                     <span className='text-secondary font-bold'><Cursor /></span>

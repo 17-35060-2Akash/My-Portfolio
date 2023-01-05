@@ -18,15 +18,24 @@ const Skills = () => {
     }, []);
 
     return (
-        <div className='my-10 md:my-28 md:mb-28 mx-10 lg:mx-48'>
+        <div
+            data-aos="zoom-in-right"
+            className='my-10 md:my-28 md:mb-28 mx-10 lg:mx-48'>
 
 
 
             <p className='text-2xl md:px-4 md:text-3xl mt-32 md:mt-32 mb-32 md:mb-44 font-lighter uppercase pb-3' >
-                <span className='bg-white px-2 md:pl-2.5 py-2 pb-3 pt-2.5'>
-                    <span className='bg-primary px-4 pb-1  pt-0.5'>My</span>
+                <span className='bg-white px-1.5 py-2 pb-2.5 pt-2.5 md:pt-2'>
+                    <span className='bg-primary px-3.5 pb-1 pt-1 md:pt-0.5'>My</span>
                     <span className='text-black font-bold pr-1'> Skills</span>
-                </span></p>
+                </span>
+                {/* <span className='bg-white px-2 py-2 pb-3 pt-3 md:pt-2.5'>
+                    <span className='bg-primary px-4 pb-1 pt-1 md:pt-0.5'>My</span>
+                    <span className='text-black font-bold pr-1'> Skills</span>
+                </span> */}
+
+            </p>
+
 
             {/* <div className='my-16 md:mt-20 md:text-end'>
                 <a href={'https://github.com/17-35060-2Akash'} target="_blank" rel="noopener noreferrer">
@@ -149,7 +158,9 @@ const Skills = () => {
                     <button className='btn btn-primary hover:btn-secondary text-white  px-20 rounded-none'><FaGithub className='text-2xl mr-2 '></FaGithub> Github</button>
                 </a>
             </div>
-            <div className='container  lg:w-1/2 mx-auto pb-20' ref={container}>
+            <div
+                data-aos="zoom-in-up"
+                className='container  lg:w-1/2 mx-auto pb-20' ref={container}>
 
             </div>
         </div>

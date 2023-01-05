@@ -11,7 +11,9 @@ const Footer = () => {
 
     return (
         <div className='py-20 glass'>
-            <div className="platform-icons flex flex-row align-middle justify-center my-4 social-tab">
+            <div
+                data-aos="zoom-in-up"
+                className="platform-icons flex flex-row align-middle justify-center my-4 social-tab">
                 {/* <Link to='/google' className='px-4 text-4xl'><FaGoogle></FaGoogle></Link> */}
                 <a target="_blank" rel="noopener noreferrer" href='https://github.com/17-35060-2Akash' className='px-4 text-4xl'><FaGithubSquare></FaGithubSquare></a>
                 <a target="_blank" rel="noopener noreferrer" href='https://www.linkedin.com/in/nasin-ayenul-akash/' className='px-4 text-4xl'><FaLinkedin></FaLinkedin> </a>
@@ -19,7 +21,9 @@ const Footer = () => {
                 <a target="_blank" rel="noopener noreferrer" href='https://www.facebook.com/nasin.akash/' className='px-4 text-4xl'><FaFacebookSquare></FaFacebookSquare> </a>
 
             </div>
-            <h2 className='py-2 text-xs md:text-md text-secondary font-bolder'>Copyright©{year} - All right reserved by N A Akash</h2>
+            <h2
+                // data-aos="zoom-in-up"
+                className='py-2 text-xs md:text-md text-white font-bolder'>Copyright©{year} - All right reserved by N A Akash</h2>
         </div>
     );
 };

@@ -48,13 +48,24 @@ const ProjectAdvertises = () => {
 
 
     return (
-        <section className='my-7 mt-32 md:mt-44 lg:mt-32'>
+        <section
+            data-aos="fade-right"
+            data-aos-offset="600"
+            data-aos-easing="ease-out-sine"
+
+            className='my-7 mt-32 md:mt-44 lg:mt-32'>
             {/* <h2 className="text-4xl font-medium my-20 ml-1 text-secondary">Fresh Works</h2> */}
             <p className='text-2xl md:px-4 md:text-4xl my-20 font-lighter uppercase pb-3' >
-                <span className='bg-white px-2 py-3 md:pt-2.5 pb-3'>
+                <span className='bg-white px-1.5 py-2 pb-2.5 pt-2.5 md:pt-2'>
+                    <span className='bg-secondary px-3.5 pb-1 pt-1 md:pt-0.5'>Fresh</span>
+                    <span className='text-black font-bold pr-1'> Works</span>
+                </span>
+                {/* <span className='bg-white px-2 py-3 md:pt-2.5 pb-3'>
                     <span className='bg-secondary px-4 pb-1 pt-1 md:pt-0.5'>Fresh</span>
                     <span className='text-black font-bold pr-1'> Works</span>
-                </span></p>
+                </span> */}
+
+            </p>
 
             <div className=" my-20 mb-96 md:mb-40 lg:mb-32 text-center">
                 <div className='text-center'>
@@ -68,7 +79,9 @@ const ProjectAdvertises = () => {
                 </div>
             </div>
 
-            <div className="mb-28">
+            <div
+                data-aos="zoom-in-right"
+                className="mb-28">
                 <div className='grid gap-12 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mx-10 md:mx-16 lg:mx-80'>
                     {
                         projects.map(project => <ProjectCard

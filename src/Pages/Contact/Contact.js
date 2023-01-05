@@ -17,16 +17,23 @@ const Contact = () => {
     }, []);
 
     return (
-        <div className='h-[1300px] md:h-[1300px] lg:h-[1400px] flex flex-col justify-center items-center'>
+        <div
+            data-aos="zoom-in-right"
+            className='h-[1300px] md:h-[1300px] lg:h-[1400px] flex flex-col justify-center items-center -mt-48 md:-mt-40 lg:-mt-48'>
             <div className='container md:w-2/4 lg:w-3/12 mx-auto' ref={container}>
 
             </div>
 
             <p style={{ zIndex: 10 }} className='text-2xl md:px-4 md:text-3xl mb-24 -mt-16  lg:-mt-14 font-lighter uppercase pb-3' >
-                <span className='bg-white px-2 py-2 pt-2.5 pb-3'>
+                <span className='bg-white px-1.5 py-2 pb-2.5 pt-2.5 md:pt-2'>
+                    <span className='bg-secondary px-3.5 pb-1 pt-1 md:pt-0.5'>Send</span>
+                    <span className='text-black font-bold pr-1'> Email</span>
+                </span>
+                {/* <span className='bg-white px-2 py-2 pt-2.5 pb-3'>
                     <span className='bg-secondary px-4 pb-1 pt-0.5'>Send</span>
                     <span className='text-black font-bold pr-1'> Email</span>
-                </span></p>
+                </span> */}
+            </p>
             <div className='w-96 p-9  shadow-xl rounded-xl glass'>
                 {/* <h2 className='text-2xl text-center font-lighter mb-9 font-lighter'>Send Me An Email</h2> */}
                 <form action='https://formspree.io/f/mvoyedzp' method='POST' >
