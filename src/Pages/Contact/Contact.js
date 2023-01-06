@@ -18,7 +18,8 @@ const Contact = () => {
 
     return (
         <div
-            data-aos="zoom-in-right"
+            data-aos="fade-left"
+            // data-aos="zoom-in-right"
             className='h-[1300px] md:h-[1300px] lg:h-[1400px] flex flex-col justify-center items-center -mt-48 md:-mt-40 lg:-mt-48'>
             <div className='container md:w-2/4 lg:w-3/12 mx-auto' ref={container}>
 

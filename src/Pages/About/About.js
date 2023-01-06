@@ -16,7 +16,9 @@ const About = () => {
 
     return (
         <div
-            data-aos="zoom-in-right"
+            data-aos="fade-left"
+
+            // data-aos="zoom-in-right"
             /* data-aos="fade-left"
             data-aos-offset="600"
             data-aos-easing="ease-out-sine" */

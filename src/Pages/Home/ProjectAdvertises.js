@@ -77,7 +77,7 @@ const ProjectAdvertises = () => {
                 <div className='text-center'>
                     <h1 className='text-3xl md:px-4 md:text-4xl mb-7 font-lighter text-secondary' >{catchProject?.name}</h1>
                     {/* <p className='text-xl font-lighter  px-20 md:px-32 lg:px-52'>{catchProject?.description.slice(0, 240) + '...'} */}
-                    <p className='text-xl font-lighter  px-8 md:px-32 lg:px-52 h-5 md:h-20'>{catchProject?.short_description}
+                    <p className='text-xl font-lighter  px-12 md:px-32 lg:px-52 h-5 md:h-20'>{catchProject?.short_description}
                     </p>
                     {/* <a target='_blank' href='https://drive.google.com/file/d/1gXR0Zpzfp4TA0rfGdtD39SxdDTLwH8nN/view?usp=sharing'>
                             <button className="btn btn-primary ml-4 mt-7 w-2/3 text-white border-0 rounded-none bg-secondary ">MY RESUME</button>
@@ -88,7 +88,7 @@ const ProjectAdvertises = () => {
             <div
                 data-aos="zoom-in-right"
                 className="mb-28">
-                <div className='grid gap-12 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mx-10 md:mx-16 lg:mx-80'>
+                <div className='grid gap-12 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 px-10 md:px-16 lg:px-80 mx-auto'>
                     {
                         projects.map(project => <ProjectCard
                             key={project.category_id}

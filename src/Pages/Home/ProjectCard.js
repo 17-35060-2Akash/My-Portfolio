@@ -15,7 +15,7 @@ const ProjectCard = ({ project, handleDescription }) => {
                         <div className="card-body flex justify-between">
                             <div className='flex justify-center'>
                                 {/* <img className='w-1/4' src={logo} alt="" /> */}
-                                <h2 className="card-title text-black font-bold text-2xl md:text-xl lg:text-2xl text-secondary">{name}</h2>
+                                <h2 className="card-title font-bold text-2xl md:text-xl lg:text-2xl text-secondary">{name}</h2>
 
                             </div>
                             <div className="card-actions justify-end">

@@ -19,7 +19,8 @@ const Skills = () => {
 
     return (
         <div
-            data-aos="zoom-in-right"
+            data-aos="fade-left"
+            // data-aos="zoom-in-right"
             className='my-10 md:my-28 md:mb-28 mx-10 lg:mx-48'>
 
 

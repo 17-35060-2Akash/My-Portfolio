@@ -29,7 +29,8 @@ const Blogs = () => {
 
     return (
         <div
-            data-aos="zoom-in-right"
+            data-aos="fade-left"
+        // data-aos="zoom-in-right"
         >
             <div className='my-40 mb-10'>
                 <h1 className='text-xl md:text-2xl'>{text}

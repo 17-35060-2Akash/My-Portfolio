@@ -21,7 +21,7 @@ const FindMe = () => {
             data-aos-offset="600"
             data-aos-easing="ease-out-sine"
         >
-            <div className=' lg:mx-40 md:40'>
+            <div className=' lg:px-40 '>
                 <p className='text-2xl md:px-4 md:text-3xl mt-40 mb-16 font-lighter uppercase pb-3' >
                     <span className='bg-white px-1.5 py-2 pb-2.5 pt-2.5 md:pt-2'>
                         <span className='bg-secondary px-3.5 pb-1 pt-1 md:pt-0.5'>Find Me</span>
