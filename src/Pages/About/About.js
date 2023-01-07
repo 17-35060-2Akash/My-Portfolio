@@ -39,9 +39,9 @@ const About = () => {
                     {/* <img src={mypro} className=" lg:w-1/2 md:w-2/3 rounded-lg" alt='' /> */}
                     <div className='md:pl-5 text-center md:text-start'>
 
-                        <p className='text-xl md:px-4  font-lighter mb-10'>This is Nasin Ayenul Akash, a young and creative web developer.
-                            Operating form Bangladesh, I currently focus on MERN Stack Development for rapid and reliable systems to ensure
-                            quicker deployments. I graduated from <span className='text-cyan-400'>American International University Bangladesh </span>
+                        <p className='text-xl md:px-4  font-lighter mb-10'>This is <span className='text-secondary font-semibold text-2xl'>Nasin Ayenul Akash</span>, a young and creative web developer.
+                            Operating form Bangladesh, I currently focus on <span className='text-success font-semibold'>MERN Stack Development</span> for rapid and reliable systems to ensure
+                            quicker deployments. I graduated from <span className='text-cyan-400 font-semibold'>American International University Bangladesh </span>
                             honored by a <span className='text-cyan-400'>BSc degree in
                                 the CS program in 2022</span>. Learning and trying out new things, are my passion since boyhood and maybe it'll stay
                             as I breathe.
@@ -50,7 +50,7 @@ const About = () => {
                             I think I've the ability of Pursuing new experiences and adapting quick, Conscientious
                             desire towards creative deeds and Decision making ability in critical situations. I'm Ambivert
                             and have a good sense of humor. I like to tryout critical problems and solving by even thinking out of
-                            the box with a positive attitude. I'm Hardworking and punctual because other things hamper without these two.
+                            the box with a positive attitude. I don't believe in luck. I'm Hardworking and punctual because other things hamper without these two.
                         </p>
                         <p className='text-xl md:px-4  font-lighter mb-10 h-10'>
                             I've immense interest in

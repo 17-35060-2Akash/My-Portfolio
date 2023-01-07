@@ -7,7 +7,7 @@ const ProjectCard = ({ project, handleDescription }) => {
     // console.log(project);
     const { category_id, image, short_description, name, thumbnail_img } = project;
     return (
-        <Fragment>
+        <div>
             <Link to={`/projects/${category_id}`}>
                 <div onMouseEnter={() => handleDescription(project)} className="options-div ">
                     <div className="card glass bg-base-100 shadow-xl rounded-sm">
@@ -27,7 +27,7 @@ const ProjectCard = ({ project, handleDescription }) => {
                     </div>
                 </div>
             </Link>
-        </Fragment>
+        </div>
     );
 };
 

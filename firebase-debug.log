@@ -1,0 +1,22 @@
+[debug] [2023-01-07T20:21:46.099Z] ----------------------------------------------------------------------
+[debug] [2023-01-07T20:21:46.102Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\User\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2023-01-07T20:21:46.102Z] CLI Version:   11.14.4
+[debug] [2023-01-07T20:21:46.103Z] Platform:      win32
+[debug] [2023-01-07T20:21:46.103Z] Node Version:  v16.15.1
+[debug] [2023-01-07T20:21:46.111Z] Time:          Sun Jan 08 2023 02:21:46 GMT+0600 (Bangladesh Standard Time)
+[debug] [2023-01-07T20:21:46.112Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-01-07T20:21:46.119Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2023-01-07T20:21:46.242Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-01-07T20:21:46.243Z] > authorizing via signed-in user (na.akash715@gmail.com)
+[debug] [2023-01-07T20:21:46.243Z] [iam] checking project my-portfolio-8dfc7 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-01-07T20:21:46.246Z] > refreshing access token with scopes: []
+[debug] [2023-01-07T20:21:46.248Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-01-07T20:21:46.249Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-01-07T20:21:46.882Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2023-01-07T20:21:46.883Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[debug] [2023-01-07T20:21:47.225Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2023-01-07T20:21:47.226Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-01-07T20:21:47.247Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/my-portfolio-8dfc7:testIamPermissions [none]
+[debug] [2023-01-07T20:21:47.248Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/my-portfolio-8dfc7:testIamPermissions x-goog-quota-user=projects/my-portfolio-8dfc7
+[debug] [2023-01-07T20:21:47.249Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/my-portfolio-8dfc7:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
